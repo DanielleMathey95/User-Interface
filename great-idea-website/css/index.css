@@ -65,27 +65,33 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
 nav {
 	background-color: white;
 	position: static;
+	margin: 35px;
+	display: inline-block;
   }
 
 .navbar a {
-	padding: 20px;
-	text-align: center;
-	
+	margin: 20px;
 }
 
-.navbar img {
-	float: right;
+.logo {
+	margin-left: 10px
 }
 
 .header-img {
-	float: right;
+	display: inline-block;
+	margin-left: 10px;
 }
 
 h1 {
 	text-align: center;
-	font-size: 80px;
+	font-size: 70px;
 	display: inline-block;
 }
