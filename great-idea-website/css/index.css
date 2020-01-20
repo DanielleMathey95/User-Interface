@@ -64,3 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	background-color: white;
+	position: static;
+  }
+
+.navbar a {
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.navbar img {
+	float: right;
+}
+
+.header-img {
+	float: right;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	display: inline-block;
+}
