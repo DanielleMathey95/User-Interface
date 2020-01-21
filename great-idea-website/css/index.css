@@ -94,9 +94,10 @@ nav {
 }
 
 .header-img {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 10px;
+	display: inline;
+	position: absolute;
+	top: 15%;
+  right: 25%;
 }
 
 h1 {
@@ -106,15 +107,26 @@ h1 {
 	margin-left: 30px;
 }
 
+
 button {
 	padding: 10px 40px;
   background-color: red;
 	color: white;
+	margin: 5% 0;
 }
 
-.section-1 {
+.hard {
 	display: inline-block;
-	text-align: left;
-	width: 300px;
-	margin: 25px 0px 25px 0px;
+	width: 45%;
+	padding-bottom: 40px;
+}
+
+.notbad {
+	display: inline-block;
+	width: 30%;
+	padding-top: 40px;
+}
+
+.copyright {
+	text-align: center;
 }
